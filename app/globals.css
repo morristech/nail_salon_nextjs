@@ -1,0 +1,221 @@
+/* h1 */
+@import url('https://fonts.font.im/css?family=Archivo+Black');
+/* h2 */
+@import url('https://fonts.font.im/css?family=Basic');
+/* h3 */
+@import url('https://fonts.font.im/css?family=Marck+Script');
+/* h4 */
+@import url('https://fonts.font.im/css?family=MedievalSharp|Merienda');
+/* p */
+@import url('https://fonts.font.im/css?family=Ubuntu');
+/* logo */
+@import url('https://fonts.font.im/css?family=Satisfy');
+/* nav links */
+@import url('https://fonts.font.im/css?family=Tangerine:400,700');
+/* table head */
+@import url('https://fonts.font.im/css?family=Jura');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  /* ----------------------root------------------------------- */
+  h1 {
+    @apply text-3xl font-bold;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  h2 {
+    @apply font-bold text-xl;
+    font-family: 'Basic', sans-serif;
+  }
+  h3 {
+    @apply font-semibold text-xl text-amber-800;
+    font-family: 'Marck Script', cursive;
+  }
+  h4 {
+    @apply text-[#52204b];
+    font-family: 'Merienda', cursive;
+  }
+  p {
+    @apply text-base;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .root {
+    @apply w-full min-h-screen mx-auto flex flex-col items-center justify-between bg-pink-300;
+  }
+  main {
+    @apply w-full lg:w-4/5 p-2;
+  }
+}
+
+/* -------------------- navbar ----------------------------- */
+.nav-container {
+  @apply w-full  flex flex-row justify-between items-center p-4 bg-transparent bg-gray-100/50;
+}
+.nav-logo {
+  font-family: 'Satisfy', cursive;
+  @apply text-xl md:text-3xl;
+}
+.mobile-nav {
+  @apply lg:hidden;
+}
+.web-nav {
+  @apply hidden w-3/4 lg:flex flex-row justify-between gap-6;
+}
+.sheet-header {
+  @apply w-full flex flex-col gap-2 justify-between items-center;
+}
+.nav-list-col {
+  @apply flex flex-col justify-between items-center gap-2 m-2;
+}
+.nav-list-row {
+  @apply flex flex-row justify-between items-center gap-4;
+}
+.nav-item {
+  @apply text-3xl font-bold  hover:bg-pink-100 w-full text-center rounded-md px-4;
+  font-family: 'Tangerine', cursive;
+}
+.active-link {
+  @apply underline;
+}
+
+/* ------------------------- footer ---------------------- */
+.footer {
+  @apply w-full flex flex-col sm:flex-row justify-around items-center gap-4 bg-gray-100 p-4;
+}
+.social-icons {
+  @apply flex flex-row justify-between gap-6 my-4;
+}
+.social-icons a {
+  @apply hover:text-black/50;
+}
+.footer-links {
+  @apply grid grid-cols-2 md:grid-cols-3 gap-4;
+}
+.footer-links a {
+  @apply hover:underline;
+}
+
+/* -------------------------hero swiper----------------------- */
+.hero-swiper {
+  @apply w-[90%]  lg:w-4/5 mx-auto my-2 rounded-sm;
+}
+
+/*------------------------ styles for small carousels---------------- */
+.small-carousels-container {
+  @apply w-[90%] sm:w-[80%]  mx-auto;
+}
+.small-carousel {
+  @apply w-full flex flex-col md:flex-row gap-4 my-8;
+}
+
+.link-title {
+  @apply text-xl mb-2 text-[#f26722];
+}
+
+.service-link {
+  @apply mt-2 lg:mt-2 text-xl hover:text-[#f69564] text-[#f26722] hover:underline;
+}
+
+/* -----------------------tables--------------------------- */
+table {
+  @apply border border-pink-500/10 shadow-lg rounded-lg;
+}
+
+tr {
+  @apply text-red-700 hover:bg-pink-400/10  hover:shadow-md  rounded-md;
+}
+
+th {
+  @apply py-2 pr-16 pl-2 text-left;
+  font-family: 'Jura', sans-serif;
+}
+
+td {
+  @apply -translate-x-8;
+}
+
+/* --------------------disclosure section------------------- */
+.disclosure-component {
+  @apply border border-gray-400  rounded-sm bg-transparent hover:bg-white/10 shadow-md m-4 p-4;
+}
+.disclosure-btn {
+  @apply rounded-xl p-2 w-full;
+}
+
+.active {
+  @apply text-[#f69564] rounded-xl;
+}
