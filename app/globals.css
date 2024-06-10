@@ -200,12 +200,8 @@ tr {
 }
 
 th {
-  @apply py-2 pr-16 pl-2 text-left;
+  @apply p-2 text-left;
   font-family: 'Jura', sans-serif;
-}
-
-td {
-  @apply -translate-x-8;
 }
 
 /* --------------------disclosure section------------------- */
