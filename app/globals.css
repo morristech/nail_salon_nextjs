@@ -155,6 +155,7 @@
 /* ------------------------- footer ---------------------- */
 .footer {
   @apply w-full flex flex-col sm:flex-row justify-around items-center gap-4 bg-gray-100 p-4;
+  font-family: 'Ubuntu', sans-serif;
 }
 .social-icons {
   @apply flex flex-row justify-between gap-6 my-4;

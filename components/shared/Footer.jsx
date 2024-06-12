@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <footer className="footer">
-      <div>
+      <div className="tracking-widest">
         <p>Sweet Water Plaza</p>
         <p>1234 Beauty Drive</p>
         <p>Sweet Water, NY 12345</p>
@@ -47,7 +47,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="translate-x-5">
+      <div className="translate-x-2">
         <ul className="footer-links">
           <li>
             <a href="">Home</a>
