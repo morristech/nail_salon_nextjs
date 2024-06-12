@@ -1,5 +1,6 @@
 import React from 'react'
 import Disclosure from '@/components/shared/Disclosure'
+import Image from 'next/image'
 
 const AboutPage = () => {
   return (
@@ -16,6 +17,14 @@ const AboutPage = () => {
       <br />
 
       <h3>Featured on City News Magazine for Sweet Water</h3>
+      <div className="w-full ">
+        <Image
+          src="/assets/fashion_magazine.jpg"
+          width={400}
+          height={400}
+          className="w-[400px] h-[400px] mx-auto object-cover p-2"
+        />
+      </div>
 
       {/* <div className="flex flex-row space-x-4 justify-center">
         <div>

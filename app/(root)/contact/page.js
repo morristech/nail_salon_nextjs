@@ -11,13 +11,13 @@ const ContactPage = () => {
         </h4>
       </div>
 
-      <div className=" rounded-sm">
+      <div className="w-full rounded-sm  mx-auto">
         <Image
-          src="/assets/location.webp"
+          src="/assets/location1.jpg"
           alt="gmap"
-          width={800}
-          height={400}
-          className="rounded-sm w-full"
+          width={500}
+          height={300}
+          className=" mx-auto rounded-sm h-[150px] sm:h-[300px] object-cover "
         />
       </div>
 

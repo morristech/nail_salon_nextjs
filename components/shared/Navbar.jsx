@@ -120,7 +120,7 @@ const Navbar = () => {
               <div>|</div>
               <div>
                 {' '}
-                <Link href="/log-in" className="hover:underline">
+                <Link href="/sign-in" className="hover:underline">
                   Log In
                 </Link>
               </div>
@@ -189,7 +189,7 @@ const Navbar = () => {
           <div>|</div>
           <div>
             {' '}
-            <Link href="/log-in">Log In</Link>
+            <Link href="/sign-in">Log In</Link>
           </div>
           <div>
             <svg
