@@ -13,7 +13,7 @@ export default function Home() {
           Make Every Visit Unforgettable
         </h2>
         <p>
-          Fashion Nail Spa provides a fresh environment to have a relaxing
+          BeauMont provides a fresh environment to have a relaxing
           experience and look your best. Everything except hair and makeup, our
           professional staff will help reinvent you.
         </p>

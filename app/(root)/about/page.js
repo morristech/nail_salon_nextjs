@@ -7,9 +7,7 @@ const AboutPage = () => {
     <div>
       <h1 className="text-center my-4">About us</h1>
       <h4 className="w-4/5 md:w-3/5 text-center mx-auto">
-        Ready to feel relaxed, rejuvenated and refreshed; spend the day with
-        Winn Nail Spa, the therapeutic center that can address all your beauty
-        and pampering needs.
+      We are a nail shop which was established on 2024, with the aim to offer varied nail services to clients with different needs, the services include manicures( acrylic, gel and gelX) and pedicures( gel and acrylic pedis) with any desired nails designs of their choice, our mission is to leave our clients feeling seen, heard and healed from what troubles they may have encountered through beauty and relaxed conversations. 
       </h4>
 
       <div></div>

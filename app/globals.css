@@ -114,7 +114,8 @@
   }
 
   .root {
-    @apply w-full min-h-screen mx-auto flex flex-col items-center justify-between bg-pink-300;
+    @apply w-full min-h-screen mx-auto flex flex-col items-center justify-between;
+    background-color: #7D8D73;
   }
   main {
     @apply w-full lg:w-4/5 p-2;

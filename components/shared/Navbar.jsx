@@ -32,7 +32,7 @@ const Navbar = () => {
     <nav className="nav-container sticky top-0 z-10">
       {/* -------------logo------------ */}
       <div className="nav-logo">
-        <Link href="/">Fashion Nail</Link>
+        <Link href="/">Beau Mont</Link>
       </div>
 
       {/* --------------------mobile nav-------------- */}
@@ -58,7 +58,7 @@ const Navbar = () => {
             <SheetHeader className="sheet-header">
               <SheetClose asChild>
                 <Link href="/" className="nav-logo">
-                  Fashion Nail
+                  Beau Mont
                 </Link>
               </SheetClose>
             </SheetHeader>

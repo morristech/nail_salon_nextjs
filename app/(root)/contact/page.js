@@ -13,7 +13,7 @@ const ContactPage = () => {
 
       <div className="w-full rounded-sm  mx-auto">
         <Image
-          src="/assets/location1.jpg"
+          src="/assets/location1.png"
           alt="gmap"
           width={500}
           height={300}
@@ -26,18 +26,18 @@ const ContactPage = () => {
           <h2>Address: </h2>
           <h4>
             {' '}
-            1234 Beauty Drive <br /> Sweet Water, NY 12345
+            250 St Joseph Avenue <br /> Eersterust, Pretoria 0022
           </h4>
           <h2>Phone Number:</h2>
-          <h4>(954) 000-1234</h4>
+          <h4>082 628 7365</h4>
         </div>
 
         <div>
           <h2>Business Hours:</h2>
-          <h3>Monday - Saturday</h3>
-          <h4> 9:00am - 7:00pm</h4>
-          <h3>Sunday</h3>
-          <h4>10:00am - 5:00pm</h4>
+          <h3>Tuesday - Saturday</h3>
+          <h4> 9:00am - 6:00pm</h4>
+          <h3>Monday - Sunday</h3>
+          <h4>Closed</h4>
         </div>
       </div>
 
