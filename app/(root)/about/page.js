@@ -14,16 +14,6 @@ const AboutPage = () => {
       <br />
       <br />
 
-      <h3>Featured on City News Magazine for Sweet Water</h3>
-      <div className="w-full ">
-        <Image
-          src="/assets/fashion_magazine.jpg"
-          width={400}
-          height={400}
-          className="w-[400px] h-[400px] mx-auto object-cover p-2"
-        />
-      </div>
-
       {/* <div className="flex flex-row space-x-4 justify-center">
         <div>
           <img src={aboutus1} alt="aboutus" />

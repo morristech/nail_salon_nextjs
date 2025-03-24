@@ -13,9 +13,7 @@ export default function Home() {
           Make Every Visit Unforgettable
         </h2>
         <p>
-          BeauMont provides a fresh environment to have a relaxing
-          experience and look your best. Everything except hair and makeup, our
-          professional staff will help reinvent you.
+         At Beaumont we pride ourselves in providing the most beautiful, clean nails service to our clients to reach their inclined desires depicting today’s trends and styles, and not forgetting to give a pampered relaxed session and achieving their greatest desires.
         </p>
       </div>
 

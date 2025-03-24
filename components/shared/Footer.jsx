@@ -1,48 +1,32 @@
 import React from 'react'
 import {
-  FaFacebook,
+  FaInstagram,
   FaTwitter,
-  FaSnapchat,
   FaGoogle,
   FaYoutube,
+  FaTiktok
 } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="tracking-widest">
-        <p>Sweet Water Plaza</p>
-        <p>1234 Beauty Drive</p>
-        <p>Sweet Water, NY 12345</p>
-        <p>(954) 000 - 1234</p>
+        <p>250 St Joseph Avenue</p>
+        <p>Eersterust, Pretoria 0022</p>
+        <p>0826287365</p>
       </div>
 
       <div className="flex flex-row">
         {/* ------------social-icons------------ */}
         <ul className="social-icons">
           <li>
-            <a href="">
-              <FaFacebook />
+            <a href="https://www.instagram.com/beau.mont__?igsh=dHBwdDBvN3owbWVs&utm_source=qr">
+              <FaInstagram />
             </a>
           </li>
           <li>
-            <a href="">
-              <FaTwitter />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <FaSnapchat />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <FaGoogle />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <FaYoutube />
+            <a href="https://www.tiktok.com/@beau.mont_?_t=ZM-8uoR45h1JoL&_r=1">
+              <FaTiktok />
             </a>
           </li>
         </ul>

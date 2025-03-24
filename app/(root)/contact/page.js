@@ -29,7 +29,7 @@ const ContactPage = () => {
             250 St Joseph Avenue <br /> Eersterust, Pretoria 0022
           </h4>
           <h2>Phone Number:</h2>
-          <h4>082 628 7365</h4>
+          <h4>0826287365</h4>
         </div>
 
         <div>
@@ -45,10 +45,7 @@ const ContactPage = () => {
         <h2>What is around the area?</h2>
         <p>
           {' '}
-          Fashion Nail is located in Sweet Water on the SW corner of Beauty
-          Drive in the Beauty plaza, between a Walmart and a Burlington. The
-          Beauty Plaza also has a sushi bar and hair salon. Beauty Plaza is
-          across from the AMC 44 Theater.
+          Beau Mont is located in Eersterust ..... Feedback
         </p>
       </div>
     </div>
