@@ -37,7 +37,7 @@ const HeroSwiper = () => {
           </CarouselItem>
           <CarouselItem>
             <Image
-              src="/assets/nail/nail_art_2.jpeg"
+              src="/assets/nail/nail_art_2.jpg"
               width={1200}
               height={800}
               alt="beauty_spa"
@@ -47,7 +47,7 @@ const HeroSwiper = () => {
 
           <CarouselItem>
             <Image
-              src="/assets/nail/nail_art_3.jpeg"
+              src="/assets/nail/nail_art_3.jpg"
               width={1200}
               height={800}
               alt="beauty_spa"

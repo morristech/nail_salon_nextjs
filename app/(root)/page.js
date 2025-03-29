@@ -2,6 +2,7 @@ import SmallCarousel from '@/components/shared/SmallCarousel'
 import HeroSwiper from '@/components/shared/HeroSwiper'
 import Image from 'next/image'
 import Link from 'next/link'
+import WhatsAppButton from '@/components/ui/whatsapp-button'
 
 export default function Home() {
   return (
@@ -55,23 +56,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="small-carousel">
-          <div className="my-auto mx-auto">
-            <SmallCarousel />
-          </div>
-          <div className="my-auto">
-            <h2 className="link-title">Waxing</h2>
-            <p>
-              Reveal a new layer of yourself with Beauty Image wax, provided
-              with our warm care. This wax has a smooth application and works
-              well with most sensitive skin types.
-            </p>
-            <div className=" service-link">
-              <Link href="/services">List of Services &#62;</Link>
-            </div>
-          </div>
-        </div>
       </div>
+      
+      <WhatsAppButton/>
     </main>
   )
 }

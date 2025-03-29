@@ -1,15 +1,14 @@
 
-import mani1 from './mani1.webp'
-import mani2 from './mani2.webp'
-import mani4 from './mani4.webp'
-import pedi5 from './pedi5.webp'
-import pedi7 from './pedi7.webp'
-
+import mani1 from './mani1.jpg'
+import mani2 from './mani2.jpg'
+import mani3 from './mani3.jpg'
+import pedi1 from './pedi1.jpg'
+import pedi2 from './pedi2.jpg'
 
 export {
     mani1,
     mani2,
-    mani4,
-    pedi5,
-    pedi7
+    mani3,
+    pedi1,
+    pedi2
 }

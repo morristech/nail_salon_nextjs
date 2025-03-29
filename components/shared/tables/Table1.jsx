@@ -1,47 +1,52 @@
 import React from 'react'
 
 const Table1 = () => {
+  const tableData = [
+    {
+      service: 'Plain Acrylic Set',
+      short: 250,
+      medium: 280,
+      long: 320,
+      extraLong: 350,
+    },
+    {
+      service: 'Plain French Acrylic Set',
+      short: 300,
+      medium: 350,
+      long: 400,
+      extraLong: 450,
+    },
+    {
+      service: 'Plain Ombré Acrylic Set',
+      short: 300,
+      medium: 350,
+      long: 400,
+      extraLong: 450,
+    },
+  ];
+
   return (
     <div className="w-full">
       <table className="mx-auto w-full text-center">
         <thead>
           <tr>
             <th></th>
-            <th className="text-center">Manicure</th>
-            <th className="text-center">Pedicure</th>
+            <th className="text-center">Short</th>
+            <th className="text-center">Medium</th>
+            <th className="text-center">Long</th>
+            <th className="text-center">Extra Long</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th>Regular</th>
-            <td>20</td>
-            <td>30</td>
-          </tr>
-          <tr>
-            <th>Signature</th>
-            <td>26</td>
-            <td>37</td>
-          </tr>
-          <tr>
-            <th>Gei Manicure</th>
-            <td>35</td>
-            <td>45</td>
-          </tr>
-          <tr>
-            <th>Winn Deluxe</th>
-            <td>N/A</td>
-            <td>47</td>
-          </tr>
-          <tr>
-            <th>Royal</th>
-            <td>35</td>
-            <td>57</td>
-          </tr>
-          <tr>
-            <th>Royal Hot Stone</th>
-            <td>N/A</td>
-            <td>67</td>
-          </tr>
+          {tableData.map((row, index) => (
+            <tr key={index}>
+              <th>{row.service}</th>
+              <td>{row.short}</td>
+              <td>{row.medium}</td>
+              <td>{row.long}</td>
+              <td>{row.extraLong}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

@@ -35,7 +35,7 @@ const Navbar = () => {
         <Link href="/">Beau Mont</Link>
       </div>
 
-      {/* --------------------mobile nav-------------- */}
+      {/* ------------- Mobile Nav (Sheet) ------------- */}
       <div className="mobile-nav">
         <Sheet>
           <SheetTrigger>
@@ -86,6 +86,16 @@ const Navbar = () => {
                   </Link>
                 </SheetClose>
               </li>
+              <li className="nav-item">
+                 <SheetClose asChild>
+                   <Link
+                     href="/booking"
+                     className={pathname === '/booking' ? 'active-link' : ''}
+                   >
+                     Book Now
+                   </Link>
+                 </SheetClose>
+               </li>
               <li className="nav-item">
                 <SheetClose asChild>
                   <Link
@@ -160,6 +170,14 @@ const Navbar = () => {
                 className={pathname === '/services' ? 'active-link' : ''}
               >
                 Services
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem className="nav-item">
+              <Link
+                href="/bookings"
+                className={pathname === '/bookings' ? 'active-link' : ''}
+              >
+                Bookings
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem className="nav-item">

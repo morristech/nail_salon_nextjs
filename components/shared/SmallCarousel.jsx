@@ -10,9 +10,9 @@ import 'swiper/css/bundle'
 import {
   mani1,
   mani2,
-  mani4,
-  pedi5,
-  pedi7,
+  mani3,
+  pedi1,
+  pedi2,
 } from '../../public/assets/carousel1'
 
 const SmallCarousel = () => {
@@ -32,13 +32,13 @@ const SmallCarousel = () => {
           <Image src={mani2} alt="hero" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={mani4} alt="hero" />
+          <Image src={mani3} alt="hero" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={pedi5} alt="hero" />
+          <Image src={pedi1} alt="hero" />
         </SwiperSlide>
         <SwiperSlide>
-          <Image src={pedi7} alt="hero" />
+          <Image src={pedi2} alt="hero" />
         </SwiperSlide>
       </Swiper>
     </div>

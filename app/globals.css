@@ -217,3 +217,30 @@ th {
 .active {
   @apply text-[#f69564] rounded-xl;
 }
+
+/* --------------------whatsapp button------------------- */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1); 
+}
+
+.whatsapp-icon {
+  width: 24px;
+  height: 24px;
+}

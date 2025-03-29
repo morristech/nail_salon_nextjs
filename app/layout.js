@@ -5,7 +5,7 @@ import Navbar from '@/components/shared/Navbar'
 import Footer from '@/components/shared/Footer'
 
 export const metadata = {
-  title: 'Fashion Nail',
+  title: 'Beau Mont',
   description: 'Get your nails done right',
 }
 
